@@ -6,7 +6,7 @@ DateOnly fecha = new DateOnly(2023, 6, 30);
 
 System.Console.WriteLine(numero);
 System.Console.WriteLine(cadena);
-System.Console.WriteLine(fecha);
+System.Console.WriteLine(fecha.ToString("ddd, dd/MM/yyyy"));
 
 Alumnos alumno = new() { Id = 2, Nombres = "Mauro", Apellidos = "Bernal" };
 
